@@ -7,7 +7,7 @@ public class Die20 {
     }
 
     public void roll() { 
-        value = (int)(Math.random()*6) + 1;
+        value = (int)(Math.random()*20) + 1;
     }    
 
     public int getValue() { 
