@@ -1,17 +1,22 @@
-public class Dice {
+public class Dice 
+{
 
-    private int value;  
+    Die6 die1; 
+    Die6 die2;
 
-    public Dice() { 
-        roll();
+    public Dice() 
+    { 
+        die1 = new Die6(); 
+        die2 = new Die6();
     }
 
     public void roll() { 
-        value = (int)(Math.random()*6) + 1;
+        die1.roll(); 
+        die2.roll();
     }    
 
     public int getValue() { 
-        return value; 
+        return die1.getValue()+die2.getValue();
     }
 
     public int rollAndGetValue() { 

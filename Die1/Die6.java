@@ -1,8 +1,8 @@
-public class Die {
+public class Die6 {
 
     private int value;  
 
-    public Die() { 
+    public Die6() { 
         roll();
     }
 
