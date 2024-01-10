@@ -14,12 +14,9 @@ public class DieN {
     }
 
     public static void main(String[] args) {
-        // Example usage:
         
-        // Create a 6-sided die
         DieN sixSidedDie = new DieN(6);
 
-        // Roll the die
         int result = sixSidedDie.roll();
         System.out.println("The result of rolling a 6-sided die is: " + result);
     }
